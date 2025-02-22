@@ -7,3 +7,9 @@ def view_contracts():
     url = f"{BASE_URL}/my/contracts"
     response = requests.get(url, headers=HEADERS)
     return response.json()
+
+
+def accept_contract(contract_id):
+    url = f"{BASE_URL}/my/contracts/{contract_id}/accept"
+    response = requests.post(url, headers=HEADERS)
+    return response.json
