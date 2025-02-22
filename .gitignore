@@ -33,9 +33,12 @@ notebooks/.ipynb_checkpoints/
 # 🔑 Secrets & environment files
 .env
 .env.local
+# 🔑 Ignore secrets
 config.py
+src/config.py
 config.yaml
 secrets.json
+
 
 # 🚧 Build & distribution
 dist/
