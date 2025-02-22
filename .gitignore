@@ -30,9 +30,10 @@ data/
 *.sqlite3
 notebooks/.ipynb_checkpoints/
 
-# 🔑 Secrets & env files
+# 🔑 Secrets & environment files
 .env
 .env.local
+config.py
 config.yaml
 secrets.json
 
